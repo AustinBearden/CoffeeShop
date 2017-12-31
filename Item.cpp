@@ -4,30 +4,33 @@
 //Date Created: 12/28/17
 
 #include "Item.h"
+#include <string>
+#include <cstring>
 
-Item::Item(string category, string name, double price) {
 
-	name = name;
-	category = category;
-	price = price;
+Item::Item(int categoryIt, int nameIt, double priceIt) {
 
-}
-
-string Item::getName() {
-
+	name = nameIt;
+	category = categoryIt;
+	price = priceIt;
 
 }
 
-void Item::setName(sting name) {
+int Item::getName() {
 
 
 }
 
-string Item::getCategory() {
+void Item::setName(int name) {
+
 
 }
 
-void Item::setCategory(string category) {
+int Item::getCategory() {
+
+}
+
+void Item::setCategory(int category) {
 
 }
 

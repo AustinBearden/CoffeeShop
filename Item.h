@@ -13,23 +13,22 @@ class Item {
 	public:
 
 		//properities
-		string name;
-		string category;
+		int name;
+		int category;
 		double price;
 
 		//constructor
-		Item(string category, string name, double price);
+		Item(int categoryIt, int nameIt, double priceIt);
 
 		//method
-		string getName();
-		void setName(string name);
+		int getName();
+		void setName(int nameIt);
 
-		string getCategory();
-		void setCategory(string category);
+		int getCategory();
+		void setCategory(int categoryIt);
 
 		double getPrice();
-		void setPrice(double price);
-
+		void setPrice(double priceIt);
 
 
 };

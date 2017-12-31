@@ -5,11 +5,12 @@
 
 #include "Menu.h"
 #include "Item.h"
+#include <array>
 
 Menu::Menu(numberOfItems) {
 
     //set an empyt 'Menu' array
-    Item* menuOfItems = new Item[numberOfItems];
+    Item* myNewArray = new Item[numberOfItems];
 
 }
 
