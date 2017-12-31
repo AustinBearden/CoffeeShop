@@ -18,17 +18,17 @@ class Item {
 		double price;
 
 		//constructor
-		Item(category, name, price);
+		Item(string category, string name, double price);
 
 		//method
 		string getName();
-		void setName(name);
+		void setName(string name);
 
 		string getCategory();
-		void setCategory(category);
+		void setCategory(string category);
 
 		double getPrice();
-		void setPrice(price);
+		void setPrice(double price);
 
 
 
