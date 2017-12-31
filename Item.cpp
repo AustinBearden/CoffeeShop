@@ -1,15 +1,15 @@
 //Filename: Item.cpp
 //Project: CoffeeShop
-//Author: Austin Bearden\
+//Author: Austin Bearden
 //Date Created: 12/28/17
 
 #include "Item.h"
 
 Item::Item(string category, string name, double price) {
 
-	Item::name = name;
-	Item::category = category;
-	Item::price = price;
+	name = name;
+	category = category;
+	price = price;
 
 }
 

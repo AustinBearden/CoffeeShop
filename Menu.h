@@ -20,6 +20,7 @@ class Menu {
 		
 
 		//methods
+		void addItem(string category, string name, double price);
 		void listByCategory();
 		void listByPrice();
 		
