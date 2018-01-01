@@ -5,3 +5,8 @@
 
 #include "storeInfo.h"
 
+storeInfo::storeInfo(string nameOfStore, double storeHours, int address) {
+
+
+
+}

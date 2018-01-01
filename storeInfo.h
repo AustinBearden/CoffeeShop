@@ -13,13 +13,16 @@ class storeInfo {
 
 	public:
 
+		//name of store
+		string nameOfStore;
 		//properties
 		double storeHours;
+		//
 		//what format should this variable be in?	
 		int address;
 
 		//constructor
-		storeInfo(nameOfStore);
+		storeInfo(string nameOfStore, double storeHours, int address);
 
 		//methods
 		void changeHours();
