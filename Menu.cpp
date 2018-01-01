@@ -23,7 +23,6 @@ void Menu::addItem(string category, string name, double price) {
 void Menu::listByCategory() {
 
 
-
 }
 
 void Menu::listByPrice() {
