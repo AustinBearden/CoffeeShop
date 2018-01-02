@@ -4,15 +4,13 @@
 //Date Created: 1/2/18
 
 #include <iostream>
-#include "Item.h"
 #include "Menu.h"
-#include "Records.h"
-#include "storeInfo.h"
 
 int main() {
 
     std::cout << "This is the main file" << std::endl;
 
+    Menu * myMenu = new Menu(4);
 
     return 0;
 }

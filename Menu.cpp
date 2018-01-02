@@ -7,13 +7,22 @@
 #include "Item.h"
 #include <array>
 #include <stdlib.h>
-#include <String>
+#include <iostream>
+
+Menu::Menu() {
+
+    Item myItemArray[4];
+
+}
 
 Menu::Menu(int numberOfItems) {
 
     //set an empyt 'Menu' array
     //Item* myNewArray = new Item[numberOfItems];
     Item myItemArray[4];
+
+    //???
+    std::cout << "This is my object array: " << myItemArray << std::endl;
 
 }
 

@@ -17,8 +17,11 @@ class Menu {
 		//properties
 		
 
-		//constructor
-		Menu(int);
+		//defualt constructor
+		Menu();
+		
+		//alternate construtor
+		Menu(int numberOfItems);
 		
 
 		//methods
