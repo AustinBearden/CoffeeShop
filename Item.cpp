@@ -8,6 +8,14 @@
 #include <cstring>
 #include <stdlib.h>
 
+Item::Item() {
+	
+	name = "No name";
+	category = "No category";
+	price = 0.00;
+
+}
+
 
 Item::Item(std::string categoryIt, std::string nameIt, double priceIt) {
 

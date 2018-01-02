@@ -6,6 +6,8 @@
 #ifndef _RECORDS_H_
 #define _RECORDS_H_
 
+#include <iostream>
+
 class Records {
 
 	private:
@@ -15,14 +17,14 @@ class Records {
 	public:
 
 		//properties
-		string purchaseDate;
+		std::string purchaseDate;
 
 		//constructor
-		Records()
+		Records();
 
 		//methods
-		void setPurchaseDate(purchaseDate);
-		string getPurchaseDate();
+		void setPurchaseDate(std::string purchaseDate);
+		std::string getPurchaseDate();
 
 };
 

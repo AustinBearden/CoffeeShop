@@ -20,7 +20,10 @@ class Item {
 		std::string category;
 		double price;
 
-		//constructor
+		//defualt constructor
+		Item();
+		
+		//alternate constructor
 		Item(std::string categoryIt, std::string nameIt, double priceIt);
 
 		//method
