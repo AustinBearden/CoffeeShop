@@ -6,6 +6,9 @@
 #ifndef _ITEM_H_
 #define _ITEM_H_
 
+#include <string>
+#include <stdlib.h>
+
 class Item {
 
 	private:
@@ -13,19 +16,19 @@ class Item {
 	public:
 
 		//properities
-		int name;
-		int category;
+		std::string name;
+		std::string category;
 		double price;
 
 		//constructor
-		Item(int categoryIt, int nameIt, double priceIt);
+		Item(std::string categoryIt, std::string nameIt, double priceIt);
 
 		//method
-		int getName();
-		void setName(int nameIt);
+		std::string getName();
+		void setName(std::string nameIt);
 
-		int getCategory();
-		void setCategory(int categoryIt);
+		std::string getCategory();
+		void setCategory(std::string categoryIt);
 
 		double getPrice();
 		void setPrice(double priceIt);

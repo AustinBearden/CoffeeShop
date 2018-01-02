@@ -5,11 +5,12 @@
 
 #include "storeInfo.h"
 #include <stdlib.h>
+#include <String>
 
-storeInfo::storeInfo(string nameOfStore, string storeHours, string address) {
+storeInfo::storeInfo(std::string nameOfStore, std::string storeHours, std::string address) {
 
     //map:
-    Map<string, string> info = 
+    std::Map<std::string, std::string> info = 
 
     {"Store Name", nameOfStore},
     {"Store Hours", storeHours},

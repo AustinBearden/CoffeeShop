@@ -5,6 +5,7 @@
 
 #ifndef _MENU_H_
 #define _MENU_H_
+#include <stdlib.h>
 
 class Menu {
 
@@ -16,11 +17,11 @@ class Menu {
 		
 
 		//constructor
-		Menu(numberOfItems);
+		Menu(int);
 		
 
 		//methods
-		void addItem(string category, string name, double price);
+		void addItem(std::string category, std::string name, double price);
 		void listByCategory();
 		void listByPrice();
 		

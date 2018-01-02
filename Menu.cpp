@@ -7,10 +7,11 @@
 #include "Item.h"
 #include <array>
 
-Menu::Menu(numberOfItems) {
+Menu::Menu(int numberOfItems) {
 
     //set an empyt 'Menu' array
-    Item* myNewArray = new Item[numberOfItems];
+    //Item* myNewArray = new Item[numberOfItems];
+    Item myItemArray[numberOfItems];
 
 }
 

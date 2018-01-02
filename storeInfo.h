@@ -7,6 +7,9 @@
 #ifndef _STOREINFO_H_
 #define _STOREINFO_H_
 
+#include <String>
+#include <stdlib.h>
+
 class storeInfo {
 
 	private:
@@ -14,15 +17,15 @@ class storeInfo {
 	public:
 
 		//name of store
-		string nameOfStore;
+		std::string nameOfStore;
 		//properties
-		string storeHours;
+		std::string storeHours;
 		//
 		//what format should this variable be in?	
-		string address;
+		std::string address;
 
 		//constructor
-		storeInfo(string nameOfStore, string storeHours, string address);
+		storeInfo(std::string nameOfStore, std::string storeHours, std::string address);
 
 		//methods
 		void changeHours();

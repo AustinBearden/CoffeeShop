@@ -6,9 +6,10 @@
 #include "Item.h"
 #include <string>
 #include <cstring>
+#include <stdlib.h>
 
 
-Item::Item(int categoryIt, int nameIt, double priceIt) {
+Item::Item(std::string categoryIt, std::string nameIt, double priceIt) {
 
 	name = nameIt;
 	category = categoryIt;
@@ -16,25 +17,30 @@ Item::Item(int categoryIt, int nameIt, double priceIt) {
 
 }
 
-int Item::getName() {
+std::string Item::getName() {
+
+	return name;
+
+}
+
+void Item::setName(std::string name) {
 
 
 }
 
-void Item::setName(int name) {
+std::string Item::getCategory() {
 
-
-}
-
-int Item::getCategory() {
+	return category;
 
 }
 
-void Item::setCategory(int category) {
+void Item::setCategory(std::string category) {
 
 }
 
 double Item::getPrice() {
+
+	return price;
 
 }
 
