@@ -5,16 +5,16 @@
 
 #include "storeInfo.h"
 #include <stdlib.h>
-#include <String>
+#include <iostream>
 
 storeInfo::storeInfo(std::string nameOfStore, std::string storeHours, std::string address) {
 
     //map:
-    std::Map<std::string, std::string> info = 
+    std::map<std::string, std::string> infoMap;
 
-    {"Store Name", nameOfStore},
-    {"Store Hours", storeHours},
-    {"Store Address", address}
+    //{"Store Name", nameOfStore},
+    //{"Store Hours", storeHours},
+    //{"Store Address", address}
 
 }
 
