@@ -11,7 +11,9 @@
 Records::Records() {
 
     //create a vector
-    std::vector<int> myPurchaseVector(20); //so its says that 'myPurchaseVector' is undefined. Is this okay?
+    //std::vector<int> myPurchaseVector(20); //so its says that 'myPurchaseVector' is undefined. Is this okay?
+
+    std::vector<int> v = {1,2,3,4};
 
 }
 
