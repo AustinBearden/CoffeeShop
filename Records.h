@@ -11,15 +11,13 @@
 class Records {
 
 	private:
-
-		
-
+	
 	public:
 
 		//properties
 		std::string purchaseDate;
 
-		//constructor
+		//defualt constructor
 		Records();
 
 		//methods
