@@ -5,6 +5,8 @@
 
 #include "Records.h"
 #include "Purchase.h"
+#include <vector>
+#include <string>
 #include <iostream>
 
 //defualt constructor
@@ -13,7 +15,7 @@ Records::Records() {
     //create a vector
     //std::vector<int> myPurchaseVector(20); //so its says that 'myPurchaseVector' is undefined. Is this okay?
 
-    std::vector<int> v = {1,2,3,4};
+    std::vector<Purchase> purchaseRecords (10, Purchase());
 
 }
 
@@ -26,5 +28,13 @@ void Records::setPurchaseDate(std::string purchaseDate) {
 std::string Records::getPurchaseDate() {
 
     
-    return "Amazying purchase date!!";
+    return "Amazing purchase date!!";
+}
+
+std::string Records::getListofPurchases() {
+
+    std::string purchaseRecordsString = "Hello my friends...Hey! This ain't no records";
+
+    return purchaseRecordsString;
+
 }

@@ -7,6 +7,7 @@
 #define _RECORDS_H_
 
 #include <iostream>
+#include <string>
 
 class Records {
 
@@ -23,6 +24,7 @@ class Records {
 		//methods
 		void setPurchaseDate(std::string purchaseDate);
 		std::string getPurchaseDate();
+		std::string getListofPurchases();
 
 };
 
