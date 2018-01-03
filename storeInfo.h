@@ -8,7 +8,7 @@
 #define _STOREINFO_H_
 
 #include <String>
-#include <stdlib.h>
+#include <iostream>
 
 class storeInfo {
 
@@ -20,9 +20,9 @@ class storeInfo {
 		std::string nameOfStore;
 		//properties
 		std::string storeHours;
-		//
+
 		//what format should this variable be in?	
-		std::string address;
+		std::string address; //?
 
 		//constructor
 		storeInfo(std::string nameOfStore, std::string storeHours, std::string address);

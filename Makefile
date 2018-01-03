@@ -3,8 +3,8 @@
 #Author: Austin Bearden
 #Date Created: 1/2/18
 
-CoffeeShop: main.o Menu.o Item.o Records.o storeInfo.o
-	g++ main.o Menu.o Item.o Records.o storeInfo.o -o CoffeeShop
+CoffeeShop: main.o Menu.o Item.o Records.o Purchase.o storeInfo.o
+	g++ main.o Menu.o Item.o Records.o Purchase.o storeInfo.o -o CoffeeShop
 
 main.o : main.cpp
 	g++ -c main.cpp -o main.o
@@ -17,6 +17,9 @@ Item.o : Item.cpp
 
 Records.o : Records.cpp
 	g++ -c Records.cpp -o Records.o
+
+Purchase.o : Purchase.cpp
+	g++ -c Purchase.cpp -o Purchase.o
 
 storeInfo.o : storeInfo.cpp
 	g++ -c storeInfo.cpp -o storeInfo.o
