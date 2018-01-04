@@ -17,7 +17,7 @@ Menu::Menu() {
 void Menu::addItem(std::string category, std::string name, double price) {
 
     Item * newItem = new Item(category, name, price);
-    myItemArray.front() = newItem;
+    //myItemArray.front() = newItem;
 
 }
 

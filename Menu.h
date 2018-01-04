@@ -15,7 +15,7 @@ class Menu {
 	public:
 
 		//properties
-		std::array<Item, 20> myItemArray;
+		//std::array<Item, 20> myItemArray;
 
 		//defualt constructor
 		Menu();
