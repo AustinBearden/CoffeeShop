@@ -21,7 +21,8 @@ class Purchase {
         //defualt constructor
         Purchase();
 
-        //alternate constructor
+        //alternate constructor Purchase(name, purchaseDate)
+        Purchase(std::string itemName, std::string itemPurchaseDate);
 
         //methods
         void setName(std::string itemName);

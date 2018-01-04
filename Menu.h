@@ -5,8 +5,8 @@
 
 #ifndef _MENU_H_
 #define _MENU_H_
-#include <stdlib.h>
-#include <String>
+#include <iostream>
+#include "Item.h"
 
 class Menu {
 
@@ -15,14 +15,10 @@ class Menu {
 	public:
 
 		//properties
-		
+		std::array<Item, 20> myItemArray;
 
 		//defualt constructor
 		Menu();
-		
-		//alternate construtor
-		Menu(int numberOfItems);
-		
 
 		//methods
 		void addItem(std::string category, std::string name, double price);

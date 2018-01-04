@@ -6,12 +6,20 @@
 #include "Purchase.h"
 #include <iostream>
 
-//constructor
+//defualt constructor
 Purchase::Purchase() {
 
     name = "unknown";
     purchaseDate = "Today...But we will need to get this feature working!!";
 
+}
+
+//alternate constructor
+Purchase::Purchase(std::string itemName, std::string itemPurchaseDate) {
+
+    name = itemName;
+    purchaseDate = itemPurchaseDate;
+    
 }
 
 void Purchase::setName(std::string itemName) {
